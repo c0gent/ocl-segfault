@@ -1,0 +1,15 @@
+[package]
+name = "ocl-segfault"
+version = "0.1.0"
+authors = ["nsan1129 <nsan1129@gmail.com>"]
+
+[dependencies]
+failure = "0.1.1"
+ocl = {version = "0.18.0", git = "https://github.com/cogciprocate/ocl"}
+
+[dev-dependencies]
+criterion = "0.2"
+
+# [[bench]]
+# harness = false
+# name = "sequential"
