@@ -7,8 +7,8 @@ use ocl::{Buffer, Context, Device, Kernel, Platform, ProQue, Program, MemFlags, 
 use ocl::builders::DeviceSpecifier;
 
 const DRAGON_SRC: &'static str = include_str!("sequential.cl");
-const TH_C: usize = 5;
-const LOOP_C: usize = 100;
+const TH_C: usize = 30;
+const LOOP_C: usize = 1000;
 
 fn main() {
     let mut threads = Vec::with_capacity(TH_C);
