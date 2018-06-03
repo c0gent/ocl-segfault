@@ -39,7 +39,7 @@ fn main() {
                     .devices(device.clone())
                     .src(DRAGON_SRC)
                     .build(&context).unwrap();
-                let _queue = Queue::new(&context, device, None).unwrap();
+                // let _queue = Queue::new(&context, device, None).unwrap();
             }
         }));
     }
